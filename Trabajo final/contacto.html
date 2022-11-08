@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS-->
+  <link rel="stylesheet" href="general.css">
+  <title>Contacto</title>
+</head>
+
+<body>
+  <div class="contacto">
+    <form action="index.html" method="GET">
+      <!--Datos personales-->
+      <div class="contacto_datos">
+        <h1>Datos personales</h1>
+        <div class="contacto_inputs">
+          <div class="contacto_input">
+            <label for="nombres">Nombres:</label>
+            <input type="text" name="nombres" />
+          </div>
+          <div class="contacto_input">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" />
+          </div>
+          <div class="contacto_input">
+            <label for="correo">Email:</label>
+            <input type="email" name="correo" />
+          </div>
+          <div class="contacto_input">
+            <label for="celular">Celular:</label>
+            <input type="tel" name="celular" />
+          </div>
+        </div>
+      </div>
+
+      <!--Cuéntanos tu experiencia-->
+      <div class="contacto_experiencia">
+        <label for="experiencia">
+          Cuéntanos tu experiencia
+        </label>
+        <textarea name="experiencia" cols="20" rows="4"></textarea>
+      </div>
+
+      <!--Botones de galería de datos-->
+      <input class="contacto_boton" type="submit"></input>
+    </form>
+  </div>
+
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
